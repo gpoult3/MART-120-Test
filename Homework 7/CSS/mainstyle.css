@@ -1,31 +1,33 @@
 body{
     background-color: beige;
-    background-image: url('Rapnuzel.Tower.jpg');
+    background-image: url('../Images/Rapnuzel.Tower.jpg');
     background-size: cover;
     height: 100vh;
-    background-position: center;
+    background-position: right;
     background-blend-mode:luminosity;
 }
 
 .content{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
-    color:aqua;
+    color: whitesmoke;
+    background-color: black;
+    opacity: 50%;
 }
 
 .title
 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 42px;
-    color:black;
+    color:whitesmoke;
 }
 
 #home{
-    color:midnightblue;
+    color:rgb(152, 152, 183);
 }
 
 #contact{
-    color:darkslategray;
+    color:rgb(152, 152, 183);
 }
 
 a:hover{
