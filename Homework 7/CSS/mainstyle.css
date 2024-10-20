@@ -3,7 +3,7 @@ body{
     background-image: url('../Images/Rapnuzel.Tower.jpg');
     background-size: cover;
     height: 100vh;
-    background-position: right;
+    background-position: center;
     background-blend-mode:luminosity;
 }
 
