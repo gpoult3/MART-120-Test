@@ -1,0 +1,77 @@
+<html>
+
+
+    <title>Page 3</title>
+    <head>
+        <link ref="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <scipt src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p2pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </scipt>
+
+        <script>
+
+
+            function checkboxes()
+            {
+                var firstName = document.getElementById("fName").value;
+                if(firstName == "")
+                {
+                    document.getElementById("fName").style.backgroundColor = "red";
+                    document.getElementById("fName").focus();
+                    document.getElementById("fNameMessage").innerHTML = "*Required"
+                    document.getElementById("fNameMessage").style.color = "red";
+
+                    return false;
+
+                }
+
+            }
+
+            function checkbox()
+            {
+                var email = document.getElementById("1Name").value;
+                if(email == "")
+                {
+                    document.getElementById("1Name").style.backgroundColor = "red";
+                    document.getElementById("1Name").focus();
+                    document.getElementById("1NameMessage").innerHTML = "*Required"
+                    document.getElementById("1NameMessage").style.color = "red";
+
+                    return false;
+                }
+            }
+
+            function check()
+            {
+                var accept = document.getElementById("2Name").required;
+                if(accept == "")
+                {
+                    window.alert("*Required");
+                }  
+            }   
+
+            
+
+        </script>
+        </head>
+
+
+        </head>
+        <body style="background-color: rgb(218, 196, 249);">
+            <div style="margin-left: 35px;">
+                <h1>Contact Us</h1>
+                <p></p>
+               
+                    <p>First Name: <input type="text" id="fName">&nbsp;<span id="fNameMessage"></span></p>
+                    <button id="btnSubmit" class="btn btn-primary" onclick='checkboxes();'>Submit</button>
+                    <p>Email: <input type="text" id="1Name">&nbsp;<span id="1NameMessage"></span></p>
+                    <button id="btnSubmit" class="btn btn-primary" onclick='checkbox();'>Submit</button>
+                    <p>Accept Terms of Agreement: <input type="checkbox" id="2Name">&nbsp;<span id="2NameMessage"></span></p>
+                    <button id="btnSubmit" class="btn btn-primary" onclick='check();'>Submit</button>
+        
+                &nbsp;|&nbsp;<a href="homepage.html">Go to the Home Page</a></p>
+                &nbsp;|&nbsp;<a href="secondpage.html">Go to the Short Story</a></p>
+            </div>
+        </body>
+</html>
+
+
